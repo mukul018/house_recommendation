@@ -91,13 +91,13 @@ function HousingLayout() {
                 } else if (plot === 'Hospital') {
                   house.score += 1;
                 } else if(plot === 'Gym Hospital' || plot === 'Hospital Gym') {
-                  house.score += 1;
+                  house.score += 2;
                 } else if(plot === 'Restaurant Hospital' || plot === 'Hospital Restaurant') {
-                  house.score += 1;
+                  house.score += 2;
                 } else if(plot === 'Gym Restaurant' || plot === 'Restaurant Gym') {
-                  house.score += 1;
+                  house.score += 2;
                 } else if(plot === 'Gym Hospital Restaurant' || plot === 'Gym Restaurant Hospital' || plot === 'Hospital Gym Restaurant' || plot === 'Hospital Restaurant Gym' || plot === 'Restaurant Hospital Gym' || plot === 'Restaurant Gym Hospital') {
-                  house.score += 1;
+                  house.score += 3;
                 }
               }
           }
