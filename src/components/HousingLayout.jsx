@@ -139,7 +139,7 @@ function HousingLayout() {
       <button className='recommendation' onClick={handleRecommendation}>Recommend House</button>
       {bestHousePosition && (
         <div className="recommendation">
-          <p>The best House is {bestHousePosition.houseName} and the position is at row {bestHousePosition.row + 1} and column {bestHousePosition.column + 1}.</p>
+          <p className='result'>The Best House is {bestHousePosition.houseName} and the position is at row {bestHousePosition.row + 1} and column {bestHousePosition.column + 1}.</p>
         </div>
       )}
     </div>

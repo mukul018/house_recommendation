@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   font-family: Arial, sans-serif;
 }
 
@@ -8,15 +8,14 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  padding: 0 35px;
+  padding: 0 80px;
   background-color: #333;
   color: #fff;
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 33%;
+  margin-right: 33%;
 }
 
-.header h1 {
-  font-size: 20px;
+.header h2 {
   margin: 0;
 }
 
@@ -103,8 +102,82 @@ body {
 .recommendation {
   margin-bottom: 20px;
   font-weight: bold;
+  color:darkolivegreen ;
 }
 
 .recommendation span {
   color: #90ee90;
 }
+
+.result {
+  color: rgb(30, 108, 210);
+}
+
+@media (max-width: 768px), (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 80px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header button {
+    position: absolute;
+    right: 20px;
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+
+  .housing-layout {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .plots-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plots-container > .row {
+    margin-top: 10px;
+  }
+  
+  .plot {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .dimensions-input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dimensions-input > * {
+    margin-bottom: 10px;
+  }
+  
+  .recommendation {
+    margin-top: 20px;
+  }
+}
+
