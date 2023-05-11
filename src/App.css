@@ -1,0 +1,110 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 35px;
+  background-color: #333;
+  color: #fff;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.housing-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dimensions-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dimensions-input label {
+  margin-right: 10px;
+}
+
+.dimensions-input input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.dimensions-input button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.plots-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.plot {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.plot:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.plot.Restaurant {
+  background-color: #ffcccb;
+}
+
+.plot.Gym {
+  background-color: #add8e6;
+}
+
+.plot.Hospital {
+  background-color: #ffe4c4;
+}
+
+.plot.House {
+  background-color: #90ee90;
+}
+
+.plot.house-label {
+  color: #fff;
+}
+
+.recommendation {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.recommendation span {
+  color: #90ee90;
+}
